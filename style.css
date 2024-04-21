@@ -1,0 +1,73 @@
+ img{
+border-radius: 25%;
+border: solid;
+
+  }
+#p{
+  font-size: 25px;
+  border-radius: 22px;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  
+}
+
+.dark-mode {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+#p1{
+  color: black;
+}
+/* This code targets any element with the class "button" */
+.button {
+  /* Set basic styles for the button */
+  background-color: #8d8d8d; /* Adjust this to your preferred color */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out; /* This line enables smooth transition */
+  border-radius: 10px;
+  margin-left: 1000px;
+
+}
+
+/* This targets the button when the user hovers over it with the mouse */
+.botton:hover {
+  background-color: #000000; /* Adjust this to your preferred hover color */
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow on hover */
+  transform: scale(1.02); /* Makes the button slightly bigger on hover */
+}
+/* This code targets any element with the class "button" */
+.botton {
+  /* Set basic styles for the button */
+  background-color: #858585; /* Adjust this to your preferred color */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out; /* This line enables smooth transition */
+  border-radius: 10px;
+  outline: none;
+}
+
+/* This targets the button when the user hovers over it with the mouse */
+.button:hover {
+  background-color: rgb(0, 0, 0); /* Adjust this to your preferred hover color */
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow on hover */
+  transform: scale(1.02); /* Makes the button slightly bigger on hover */
+}
